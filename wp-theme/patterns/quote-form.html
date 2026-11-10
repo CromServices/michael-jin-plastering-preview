@@ -1,0 +1,62 @@
+<!--
+Title: Quote form
+Slug: mjp/quote-form
+Categories: featured
+Description: Quote fields matching the spec preview. Live WP install should email the published Outlook address; the static preview never POSTs.
+-->
+<!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"top":"72px","bottom":"72px"}},"color":{"background":"#ffffff"}}} -->
+<section class="wp-block-group" style="background-color:#ffffff;padding-top:72px;padding-bottom:72px">
+  <!-- wp:columns -->
+  <div class="wp-block-columns">
+    <!-- wp:column -->
+    <div class="wp-block-column">
+      <!-- wp:heading -->
+      <h2 class="wp-block-heading">Get a quote</h2>
+      <!-- /wp:heading -->
+      <!-- wp:paragraph -->
+      <p>Tell us about the job and we will come back with the price before work starts.</p>
+      <!-- /wp:paragraph -->
+      <!-- wp:paragraph -->
+      <p><a href="tel:+61452480704">0452 480 704</a><br><a href="mailto:lxin_2021@outlook.com">lxin_2021@outlook.com</a></p>
+      <!-- /wp:paragraph -->
+      <!-- wp:paragraph -->
+      <p>Mon–Fri 8am–5pm<br>Saturday 9am–3pm<br>Sunday by appointment</p>
+      <!-- /wp:paragraph -->
+    </div>
+    <!-- /wp:column -->
+    <!-- wp:column -->
+    <div class="wp-block-column">
+      <!-- wp:html -->
+      <form>
+        <label>Name <input type="text" name="name"></label>
+        <label>Phone <input type="tel" name="phone"></label>
+        <label>Email <input type="email" name="email"></label>
+        <label>Suburb <input type="text" name="suburb"></label>
+        <label>Property
+          <select name="property"><option>Home</option><option>Business</option></select>
+        </label>
+        <label>Service
+          <select name="service">
+            <option>Gyprock / dry wall</option>
+            <option>Partitioning</option>
+            <option>Solid wall</option>
+            <option>Patch and repairs</option>
+            <option>Cornice</option>
+            <option>Water damage</option>
+            <option>New construction</option>
+            <option>Renovations</option>
+            <option>Garage ceiling</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label>Short description <textarea name="details"></textarea></label>
+        <label>Preferred visit window <input type="text" name="when"></label>
+        <button type="submit">Get a quote</button>
+      </form>
+      <!-- /wp:html -->
+    </div>
+    <!-- /wp:column -->
+  </div>
+  <!-- /wp:columns -->
+</section>
+<!-- /wp:group -->
