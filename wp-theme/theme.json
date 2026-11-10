@@ -9,6 +9,7 @@
         { "slug": "gold", "color": "#E5AB26", "name": "Brand gold" },
         { "slug": "gold-bar", "color": "#E4AA24", "name": "Gold utility bar" },
         { "slug": "teal", "color": "#37BFCB", "name": "Teal header" },
+        { "slug": "teal-ink", "color": "#0E6B73", "name": "Teal text" },
         { "slug": "ink", "color": "#000000", "name": "Ink" },
         { "slug": "paper", "color": "#FFFFFF", "name": "Paper" },
         { "slug": "mist", "color": "#F9F9F9", "name": "Mist" }
